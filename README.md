@@ -35,7 +35,7 @@ To enable it:
   2. The technician's current location will be automatically detected and the Take Picture button will be enable. If location is not enable in the mobile device an Error Toast Message will popup.
      <p align="center">
       <img src="https://github.com/user-attachments/assets/d1b71cb2-1383-46b9-a875-f68afc3ac4ef" width="300"/>
-    </p>
+     </p>
      
 
   3. Capture the Image and Upload the Image with the geolocation marked in the captured image.
