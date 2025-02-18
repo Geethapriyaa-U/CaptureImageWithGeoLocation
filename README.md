@@ -28,16 +28,25 @@ To enable it:
 
 ## Demonstration
   1. Open Field Service Mobile App and select the Scheduled Service Appointment. Under Work Order Actions, click the Capture Image Button
- ![Media (4)](https://github.com/user-attachments/assets/86970c0d-6aea-46a1-ac38-f0ca5c63ac33) 
+    <p align="center">
+      <img src="https://github.com/user-attachments/assets/86970c0d-6aea-46a1-ac38-f0ca5c63ac33" width="300"/>
+    </p>
 
   2. The technician's current location will be automatically detected and the Take Picture button will be enable. If location is not enable in the mobile device an Error Toast Message will popup.
-![Media (2)](https://github.com/user-attachments/assets/87ebac3c-823a-4128-a2fd-1e31fd8c940a)
+     <p align="center">
+      <img src="https://github.com/user-attachments/assets/d1b71cb2-1383-46b9-a875-f68afc3ac4ef" width="300"/>
+    </p>
+     
 
   3. Capture the Image and Upload the Image with the geolocation marked in the captured image.
-![Media (3)](https://github.com/user-attachments/assets/d1b71cb2-1383-46b9-a875-f68afc3ac4ef)
+     <p align="center">
+      <img src="https://github.com/user-attachments/assets/87ebac3c-823a-4128-a2fd-1e31fd8c940a" width="300"/>
+     </p>
 
   4. The captured image can be tracked in the Related List of the specified Salesforce record.
-![Screenshot 2025-02-18 180932](https://github.com/user-attachments/assets/f5fcd48d-dbc8-4536-bd16-04750e0a1d71)
+     <p align="center">
+      <img src="https://github.com/user-attachments/assets/f5fcd48d-dbc8-4536-bd16-04750e0a1d71" width="300"/>
+     </p>
 
 ## Key Use Case
 - For use cases like inspection reports, damage assessments, or product documentation, where both images and their associated geolocation (latitude, longitude) need to be stored and linked to Salesforce records.
