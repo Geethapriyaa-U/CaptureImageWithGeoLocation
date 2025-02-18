@@ -1,0 +1,35 @@
+<template>
+    <lightning-card>
+        <div class="body">
+            <!-- Display location detected message if location is enabled -->
+            <template if:true={locationDetected}>
+                <p>{locationDetected}</p>
+            </template>
+
+            <!-- Display location service error message if location is disabled -->
+            <template if:true={serviceError}>
+                <p>{serviceError}</p>
+            </template>
+
+            <!--Take Picture Button-->
+            <lightning-button label="Take Picture"
+                              variant="brand"
+                              onclick={handleTakePicture}
+                              disabled={captureDisabled}></lightning-button>
+       
+            <!--Display Captured Image & a button to Upload the Captured Image-->
+            <template if:true={capturedImage}>
+                <img src={capturedImage.imageBytes} alt="Captured Image" class="captured-img"/>
+                
+                <lightning-button label="Upload Image" 
+                                  variant="success" 
+                                  onclick={handleImageUpload}></lightning-button>
+            </template>
+
+            <!-- Display Image Error if there’s an issue capturing the image -->
+            <template if:true={imageError}>
+                <p>{imageError}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

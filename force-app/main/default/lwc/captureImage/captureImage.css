@@ -1,0 +1,15 @@
+.body{
+    padding: 10px; /* all four side spacing */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap; /* Allow content to wrap */
+    height: 100%;
+    font-size: medium;
+}
+
+.captured-img {
+    max-width: auto;
+    height: auto;
+    align-items: center;
+}
